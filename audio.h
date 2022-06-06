@@ -1,3 +1,6 @@
+#ifndef __AUDIO_H
+#define __AUDIO_H
+
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -17,4 +20,6 @@ PaError audio_stop();
 
 #ifdef __cplusplus
 }
+#endif
+
 #endif
